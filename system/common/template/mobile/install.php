@@ -191,8 +191,8 @@
 	<h2>微商城配置</h2>	<div id="formCheckSQL">
 				<p class="first" >
 			<label for="adminname">baijiacms微商城根目录 </label>
-			<input name="weifooter" type="text" class="text" id="weifooter"  value="" />
-				<span class="userInfos aligned" style="margin-top:5px;font-size:12px">微商城需WEB可以访问(无需安装),且与多商户管理平台属同一服务器下。如/htdocs/baijiacms</span>
+			<input name="weifooter" type="text" class="text" id="weifooter"  value="<?php echo WEB_ROOT ?>/baijiacms" style="width:300px" />
+				<span class="userInfos aligned" style="margin-top:5px;font-size:12px">微商城需WEB可以访问(无需安装),且与多商户管理平台属同一服务器下。默认文件夹地址指向多商户版根目录下baijiacms文件夹，请根据情况修改</span>
 		</p>
 			</div>
 </div>
